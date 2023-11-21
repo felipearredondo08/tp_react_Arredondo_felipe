@@ -19,7 +19,7 @@ const TaskForm = ({ onAddTask }) => {
   return (
     <form className="task-form-container" onSubmit={handleSubmit}>
       <input className="task-form-input" type="text" value={taskName} onChange={handleInputChange} />
-      <button className="task-form-button" type="submit"><p>Agregar Tarea</p></button>
+      <button className="task-form-button" type="submit"><p>Agregar</p></button>
     </form>
   );
 };

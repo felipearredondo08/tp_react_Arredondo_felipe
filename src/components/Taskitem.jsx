@@ -6,7 +6,7 @@ const TaskItem = ({ task, onCompleteTask, onDeleteTask }) => {
   const [colorClass, setColorClass] = useState('');
 
   useEffect(() => {
-    const colors = ['color-1', 'color-2', 'color-3', 'color-4', 'color-5'];
+    const colors = ['color-1', 'color-2', 'color-3', 'color-4', 'color-5', 'color-6', 'color-7', 'color-8'];
     const randomColorClass = colors[Math.floor(Math.random() * colors.length)];
     setColorClass(randomColorClass);
   }, []);

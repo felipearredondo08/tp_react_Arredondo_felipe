@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    align-items: center;
+    
+    padding: 10px;
+    margin-bottom: -3rem;
+    margin-top: 0;
+  }
+  
+  .logo {
+    height: 50px; /* Ajusta el tamaño del logo según tus necesidades */
+    margin-right: 10px; /* Puedes ajustar el margen entre el logo y el nombre de la marca */
+    margin-left:80px;
+  }
